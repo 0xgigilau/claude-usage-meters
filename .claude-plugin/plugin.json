@@ -1,0 +1,18 @@
+{
+  "name": "usage-meters",
+  "version": "0.1.0",
+  "description": "Progress bars for context window, session/weekly/monthly usage and per-model token share, in a pane (or band above the prompt) and the status line.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "monthlyBudgetUsd": {
+      "type": "number",
+      "title": "Monthly budget (USD)",
+      "description": "Spend that counts as 100% on the month bar. Claude Code reports no monthly limit, so the month bar is your own tally of session costs against this figure.",
+      "default": 100
+    }
+  },
+  "author": {
+    "name": "0xgigilau"
+  },
+  "repository": "https://github.com/0xgigilau/claude-usage-meters"
+}
